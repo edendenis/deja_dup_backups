@@ -7,13 +7,24 @@
 *INPUT*.py
 *INPUT.py
 *INPUT*.csv
+*password*.txt
+*password*.csv
+*tokens*.txt
+*tokes.csv
+*.tgz
+*.webm
 # Except these ones...
+!inputs_templates/LPRE/components/thrust_chamber_assembly/TCA_input_RD109.py
 
 # Also ignore folders inputs/ and outputs/
 .inputs/
 .outputs/
 inputs/
 outputs/
+.passwords/
+passwords
+.tokens/
+tokens
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
